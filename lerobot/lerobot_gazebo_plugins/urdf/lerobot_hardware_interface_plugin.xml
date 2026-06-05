@@ -1,0 +1,18 @@
+<library path="lerobot_hardware_interface">
+    <class name="lerobot_gazebo_plugins/LerobotHardwareInterface"
+           type="lerobot_hardware_interface::LerobotHardwareInterface"
+           base_class_type="gz_ros2_control::GazeboSimSystemInterface">
+        <description>
+            LeRobot Arm Hardware Interface compatible with gz_ros2_control
+        </description>
+    </class>
+</library>
+<library path="lerobot_moveit_adapter">
+    <class name="lerobot_gazebo_plugins/LerobotMoveItAdapter"
+           type="lerobot_gazebo_plugins::LerobotMoveItAdapter"
+           base_class_type="gz_ros2_control::GazeboSimSystemInterface">
+        <description>
+            MoveIt / ros2_control adapter for the lerobot Arm using Gazebo position topics.
+        </description>
+    </class>
+</library>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="lerobot_control">
+
+    <!--
+        ARCHITECTURE NOTE:
+        This robot uses Gazebo-native joint controllers (gz-sim-joint-position-controller-system)
+        defined in lerobot_arm_joint_position_model.xacro, bridged to ROS2 via ros_gz_bridge.
+
+        The ros2_control block below declares the joint interfaces so that tools like
+        robot_state_publisher and joint_state_broadcaster can read state, but the actual
+        position commands are sent directly to Gazebo via the gz_topic params.
+
+        The gz_ros2_control Gazebo plugin is intentionally NOT loaded here to avoid
+        dual-control conflicts (which cause joint oscillation/vibration).
+        If you want full ros2_control (e.g. MoveIt / JointTrajectoryController), you would
+        need to remove lerobot_arm_joint_position_model.xacro from the URDF and enable the
+        plugin block at the bottom of this file instead.
+    -->
+
+    <ros2_control name="GazeboSimSystem" type="system">
+        <hardware>
+            <plugin>lerobot_gazebo_plugins/LerobotMoveItAdapter</plugin>
+        </hardware>
+
+
+        <joint name="6">
+            <command_interface name="position">
+                <param name="gz_topic">/lerobot/6_cmd_pos</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="5">
+            <command_interface name="position">
+                <param name="gz_topic">/lerobot/5_cmd_pos</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <!-- BUG 1 FIX: was /lerobot/_cmd_pos (missing joint number) -->
+        <joint name="4">
+            <command_interface name="position">
+                <param name="gz_topic">/lerobot/4_cmd_pos</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="3">
+            <command_interface name="position">
+                <param name="gz_topic">/lerobot/3_cmd_pos</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="2">
+            <command_interface name="position">
+                <param name="gz_topic">/lerobot/2_cmd_pos</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <!-- BUG 1 FIX: was /lerobot/_cmd_pos (missing joint number) -->
+        <joint name="1">
+            <command_interface name="position">
+                <param name="gz_topic">/lerobot/1_cmd_pos</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+    </ros2_control>
+
+    <!--
+        gz_ros2_control Gazebo plugin — INTENTIONALLY DISABLED.
+        Enabling this while lerobot_arm_joint_position_model.xacro is also included
+        causes dual-control conflict (both systems compete for the same joints → vibration).
+        Also has a known segfault-on-shutdown bug in ROS2 Jazzy + Gazebo Harmonic.
+
+        To enable full ros2_control pipeline (MoveIt, JointTrajectoryController, etc.):
+          1. Remove the JointPositionController plugins from lerobot_arm_joint_position_model.xacro
+          2. Uncomment the block below
+          3. Create a ros2_controllers.yaml with your controller config
+    -->
+    <gazebo>
+        <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+            <parameters>$(find lerobot_gazebo_plugins)/config/topic_parameters.yaml</parameters>
+        </plugin>
+    </gazebo>
+
+    <xacro:include filename="$(find lerobot_gazebo_plugins)/urdf/lerobot_arm_joint_position_model.xacro"/>
+
+</robot>

@@ -1,0 +1,46 @@
+# Joint states: Gazebo → ROS2 (two mirrors)
+- ros_topic_name: "/lerobot/sim/joint_states"
+  gz_topic_name: "/lerobot/joint_states"
+  ros_type_name: "sensor_msgs/msg/JointState"
+  gz_type_name: "gz.msgs.Model"
+  direction: GZ_TO_ROS
+
+# Joint position commands: ROS2 → Gazebo
+# NOTE: gz_topic names must match the <topic> tags in lerobot_arm_joint_position_model.xacro
+# Joints are named 1-6 in the URDF (so101.urdf.xacro)
+
+- ros_topic_name: "/lerobot/sim/joint_1_cmd_pos"
+  gz_topic_name: "/lerobot/1_cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/lerobot/sim/joint_2_cmd_pos"
+  gz_topic_name: "/lerobot/2_cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/lerobot/sim/joint_3_cmd_pos"
+  gz_topic_name: "/lerobot/3_cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/lerobot/sim/joint_4_cmd_pos"
+  gz_topic_name: "/lerobot/4_cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/lerobot/sim/joint_5_cmd_pos"
+  gz_topic_name: "/lerobot/5_cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/lerobot/sim/joint_6_cmd_pos"
+  gz_topic_name: "/lerobot/6_cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ

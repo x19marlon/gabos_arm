@@ -1,0 +1,1 @@
+lerobot_description;rclcpp;rclcpp_lifecycle;pluginlib;hardware_interface;controller_manager;sensor_msgs;std_msgs;trajectory_msgs;control_msgs;launch;launch_ros;xacro;gz_sim_vendor;gz_plugin_vendor;gz_common_vendor;ros_gz_sim;ros_gz_bridge;gz_ros2_control

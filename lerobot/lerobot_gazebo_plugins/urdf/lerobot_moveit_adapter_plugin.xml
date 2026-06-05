@@ -1,0 +1,7 @@
+<library path="lerobot_moveit_adapter">
+    <class name="lerobot_gazebo_plugins/LerobotMoveItAdapter" type="lerobot_gazebo_plugins::LerobotMoveItAdapter" base_class_type="gz_ros2_control::GazeboSimSystemInterface">
+        <description>
+      MoveIt / ros2_control adapter for the lerobot Arm using Gazebo position topics.
+        </description>
+    </class>
+</library>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lerobot_gazebo_bridge</name>
+  <version>0.0.0</version>
+  <description>ROS 2 and Gazebo bridge configuration for the LeRobot simulation.</description>
+
+  <maintainer email="tu_correo@example.com">marliton</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>lerobot_description</depend>
+  <depend>lerobot_gazebo</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>xacro</depend>
+  <depend>ros_gz_bridge</depend>
+  <depend>ros_gz_sim</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

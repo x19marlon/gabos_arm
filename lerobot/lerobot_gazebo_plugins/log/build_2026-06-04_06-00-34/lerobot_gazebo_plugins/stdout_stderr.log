@@ -1,0 +1,615 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found hardware_interface: 4.44.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found controller_manager: 4.44.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found gz_sim_vendor: 0.0.10 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+-- Looking for gz-sim8 -- found version 8.11.0
+-- Searching for dependencies of gz-sim8
+-- Looking for sdformat14 -- found version 14.9.0
+-- Searching for dependencies of sdformat14
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 10.0.0
+-- Looking for gz-math7 -- found version 7.5.2
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.2.1
+-- Searching for dependencies of gz-utils2-cli
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-plugin2> component [loader]
+-- Looking for gz-plugin2-loader -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2-loader
+-- Searching for <gz-plugin2> component [register]
+-- Looking for gz-plugin2-register -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Searching for dependencies of gz-transport13
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq, version 4.3.5
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.39.3
+-- Found UUID: TRUE  
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Searching for dependencies of gz-msgs10
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.5.2
+-- Searching for <gz-transport13> component [log]
+-- Looking for gz-transport13-log -- found version 13.5.0
+-- Searching for dependencies of gz-transport13-log
+-- Searching for <gz-transport13> component [parameters]
+-- Looking for gz-transport13-parameters -- found version 13.5.0
+-- Searching for dependencies of gz-transport13-parameters
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-common5 -- found version 5.8.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <gz-common5> component [av]
+-- Looking for gz-common5-av -- found version 5.8.0
+-- Searching for dependencies of gz-common5-av
+-- Checking for module 'libswscale'
+--   Found libswscale, version 7.5.100
+-- Found SWSCALE: TRUE  
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice, version 60.3.100
+-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+-- Checking for module 'libavformat'
+--   Found libavformat, version 60.16.100
+-- Found AVFORMAT: TRUE  
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 60.31.102
+-- Found AVCODEC: TRUE  
+-- Checking for module 'libavutil'
+--   Found libavutil, version 58.29.100
+-- Found AVUTIL: TRUE  
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.8.0
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.5.2
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.8.0
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.5.2
+-- Found GzAssimp: TRUE (found version "5.3.0") 
+-- Searching for <gz-common5> component [io]
+-- Looking for gz-common5-io -- found version 5.8.0
+-- Searching for dependencies of gz-common5-io
+-- Searching for <gz-common5> component [profiler]
+-- Looking for gz-common5-profiler -- found version 5.8.0
+-- Searching for dependencies of gz-common5-profiler
+-- Looking for gz-fuel_tools9 -- found version 9.1.1
+-- Searching for dependencies of gz-fuel_tools9
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Found ZIP: TRUE  
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-common5 -- found version 5.8.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [testing]
+-- Looking for gz-common5-testing -- found version 5.8.0
+-- Searching for dependencies of gz-common5-testing
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-gui8 -- found version 8.4.0
+-- Searching for dependencies of gz-gui8
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.8.0
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Looking for gz-rendering8 -- found version 8.2.3
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.5.2
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.5.2
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-common5 -- found version 5.8.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Searching for <gz-common5> component [events]
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.8.0
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.8.0
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-physics7 -- found version 7.6.0
+-- Searching for dependencies of gz-physics7
+-- Looking for gz-common5 -- found version 5.8.0
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-physics7> component [heightmap]
+-- Looking for gz-physics7-heightmap -- found version 7.6.0
+-- Searching for dependencies of gz-physics7-heightmap
+-- Looking for gz-common5 -- found version 5.8.0
+-- Searching for <gz-physics7> component [mesh]
+-- Looking for gz-physics7-mesh -- found version 7.6.0
+-- Searching for dependencies of gz-physics7-mesh
+-- Looking for gz-common5 -- found version 5.8.0
+-- Searching for <gz-physics7> component [sdf]
+-- Looking for gz-physics7-sdf -- found version 7.6.0
+-- Searching for dependencies of gz-physics7-sdf
+-- Looking for sdformat14 -- found version 14.9.0
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.8.0
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Looking for gz-rendering8 -- found version 8.2.3
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for sdformat14 -- found version 14.9.0
+-- Searching for <gz-sensors8> component [air_pressure]
+-- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-air_pressure
+-- Searching for <gz-sensors8> component [air_speed]
+-- Looking for gz-sensors8-air_speed -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-air_speed
+-- Searching for <gz-sensors8> component [altimeter]
+-- Looking for gz-sensors8-altimeter -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-altimeter
+-- Searching for <gz-sensors8> component [imu]
+-- Looking for gz-sensors8-imu -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-imu
+-- Searching for <gz-sensors8> component [force_torque]
+-- Looking for gz-sensors8-force_torque -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-force_torque
+-- Searching for <gz-sensors8> component [logical_camera]
+-- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-logical_camera
+-- Searching for <gz-sensors8> component [magnetometer]
+-- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-magnetometer
+-- Searching for <gz-sensors8> component [navsat]
+-- Looking for gz-sensors8-navsat -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-navsat
+-- Searching for <gz-sensors8> component [dvl]
+-- Looking for gz-sensors8-dvl -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-dvl
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.8.0
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Looking for gz-rendering8 -- found version 8.2.3
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for sdformat14 -- found version 14.9.0
+-- Searching for <gz-sensors8> component [rendering]
+-- Looking for gz-sensors8-rendering -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-rendering
+-- Searching for <gz-sensors8> component [rendering]
+-- Searching for <gz-sensors8> component [lidar]
+-- Looking for gz-sensors8-lidar -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-lidar
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [gpu_lidar]
+-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-gpu_lidar
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [camera]
+-- Looking for gz-sensors8-camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [boundingbox_camera]
+-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-boundingbox_camera
+-- Searching for <gz-sensors8> component [segmentation_camera]
+-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-segmentation_camera
+-- Searching for <gz-sensors8> component [depth_camera]
+-- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-depth_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [rgbd_camera]
+-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-rgbd_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [thermal_camera]
+-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-thermal_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [wide_angle_camera]
+-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-wide_angle_camera
+-- Looking for gz-rendering8 -- found version 8.2.3
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-common5 -- found version 5.8.0
+-- Found gz_ros2_control: 1.2.17 (/opt/ros/jazzy/share/gz_ros2_control/cmake)
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/build/lerobot_gazebo_plugins
+[ 50%] [32mBuilding CXX object CMakeFiles/lerobot_moveit_adapter.dir/src/lerobot_moveit_adapter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lerobot_hardware_interface.dir/src/lerobot_hardware_interface.cpp.o[0m
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_hardware_interface.cpp:111:33:[m[K [01;31m[Kerror: [m[K‘[01m[Klerobot_hardware_interface[m[K’ has not been declared
+  111 | hardware_interface::return_type [01;31m[Klerobot_hardware_interface[m[K::LerobotHardwareInterface::write(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_hardware_interface.cpp:2[m[K:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_hardware_interface.cpp:119:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klerobot_hardware_interface[m[K’ does not name a type; did you mean ‘[01m[Klerobot_hardware_interface_EXPORTS[m[K’?
+  119 | PLUGINLIB_EXPORT_CLASS([01;31m[Klerobot_hardware_interface[m[K::LerobotHardwareInterface,
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_hardware_interface.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_hardware_interface.cpp:119:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  119 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(lerobot_hardware_interface::LerobotHardwareInterface,
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_hardware_interface.cpp:119:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [53], const char [42])[m[K’
+  119 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(lerobot_hardware_interface::LerobotHardwareInterface,
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+  241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      | [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_hardware_interface.cpp:119:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  119 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(lerobot_hardware_interface::LerobotHardwareInterface,
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lerobot_hardware_interface.dir/build.make:76: CMakeFiles/lerobot_hardware_interface.dir/src/lerobot_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lerobot_hardware_interface.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:211:1:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ does not name a type; did you mean ‘[01m[KlerobotMoveItAdapter[m[K’?
+  211 | [01;31m[KLerobotMoveItAdapter[m[K::LerobotMoveItAdapter()
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      | [32m[KlerobotMoveItAdapter[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:216:1:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ does not name a type; did you mean ‘[01m[KlerobotMoveItAdapter[m[K’?
+  216 | [01;31m[KLerobotMoveItAdapter[m[K::~LerobotMoveItAdapter() = default;
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      | [32m[KlerobotMoveItAdapter[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:222:6:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  222 | bool [01;31m[KLerobotMoveItAdapter[m[K::initSim(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Kbool lerobot_gazebo_plugins::[01;32m[KinitSim[m[K(rclcpp::Node::SharedPtr&, std::map<std::__cxx11::basic_string<char>, long unsigned int>&, const hardware_interface::HardwareInfo&, gz::sim::v8::EntityComponentManager&, unsigned int)[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:229:5:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  229 |     [01;31m[Kthis[m[K->nh_ = model_nh;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:230:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  230 |     [01;31m[Kdata_ptr_[m[K->ecm = &ecm;
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics_utils.hpp:45[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics_macros.hpp:36[m[K,
+                 from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:32[m[K,
+                 from [01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/include/lerobot_gazebo_plugins/lerobot_moveit_adapter.hpp:12[m[K,
+                 from [01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:1[m[K:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:235:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  235 |         RCLCPP_ERROR([01;31m[Kthis[m[K->nh_->get_logger(), "No joints were found in hardware_info.");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:235:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:235:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  235 |         [01;31m[KRCLCPP_ERROR[m[K(this->nh_->get_logger(), "No joints were found in hardware_info.");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:235:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  235 |         RCLCPP_ERROR([01;31m[Kthis[m[K->nh_->get_logger(), "No joints were found in hardware_info.");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:235:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  235 |         RCLCPP_ERROR([01;31m[Kthis[m[K->nh_->get_logger(), "No joints were found in hardware_info.");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:247:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:247:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:246:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  246 |             [01;31m[KRCLCPP_WARN[m[K(
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:247:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:247:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  247 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:295:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  295 |         RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "Loading joint '%s'", joint.name.c_str());
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:295:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:295:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  295 |         [01;31m[KRCLCPP_INFO[m[K(this->nh_->get_logger(), "Loading joint '%s'", joint.name.c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:295:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  295 |         RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "Loading joint '%s'", joint.name.c_str());
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:295:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  295 |         RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "Loading joint '%s'", joint.name.c_str());
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:308:57:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  308 |                                        state_interface, [01;31m[Kthis[m[K->nh_->get_logger(), joint.name);
+      |                                                         [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:318:57:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  318 |                                        state_interface, [01;31m[Kthis[m[K->nh_->get_logger(), joint.name);
+      |                                                         [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:328:55:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  328 |                                      state_interface, [01;31m[Kthis[m[K->nh_->get_logger(), joint.name);
+      |                                                       [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:337:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  337 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:337:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:336:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  336 |             [01;31m[KRCLCPP_WARN[m[K(
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:337:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  337 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:337:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  337 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:350:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  350 |                     [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:350:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:349:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  349 |                 [01;31m[KRCLCPP_WARN[m[K(
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:350:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  350 |                     [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:350:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  350 |                     [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:358:72:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  358 |             joint.gz_command_topic = resolve_command_topic(joint_info, [01;31m[Kthis[m[K->nh_->get_logger());
+      |                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:360:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  360 |                 data_ptr_->gz_node->Advertise<gz::msgs::Double[01;31m[K>[m[K(joint.gz_command_topic);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:367:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  367 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:367:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:366:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  366 |             [01;31m[KRCLCPP_INFO[m[K(
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:367:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  367 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:367:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  367 |                 [01;31m[Kthis[m[K->nh_->get_logger(),
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:395:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  395 |         RCLCPP_ERROR([01;31m[Kthis[m[K->nh_->get_logger(), "No valid joints were configured in the adapter.");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:395:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:395:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  395 |         [01;31m[KRCLCPP_ERROR[m[K(this->nh_->get_logger(), "No valid joints were configured in the adapter.");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:395:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  395 |         RCLCPP_ERROR([01;31m[Kthis[m[K->nh_->get_logger(), "No valid joints were configured in the adapter.");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:395:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  395 |         RCLCPP_ERROR([01;31m[Kthis[m[K->nh_->get_logger(), "No valid joints were configured in the adapter.");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:406:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  406 | CallbackReturn [01;31m[KLerobotMoveItAdapter[m[K::on_init(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Klerobot_gazebo_plugins::CallbackReturn lerobot_gazebo_plugins::[01;32m[Kon_init[m[K(const hardware_interface::HardwareComponentInterfaceParams&)[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:409:53:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareComponentInterfaceParams&)[m[K’ without object
+  409 |     if ([01;31m[Khardware_interface::SystemInterface::on_init(params)[m[K != CallbackReturn::SUCCESS) {
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:416:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  416 | CallbackReturn [01;31m[KLerobotMoveItAdapter[m[K::on_configure(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Klerobot_gazebo_plugins::CallbackReturn lerobot_gazebo_plugins::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:419:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  419 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter configured successfully.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:419:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:419:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  419 |     [01;31m[KRCLCPP_INFO[m[K(this->nh_->get_logger(), "LerobotMoveItAdapter configured successfully.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:419:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  419 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter configured successfully.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:419:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  419 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter configured successfully.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:423:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  423 | CallbackReturn [01;31m[KLerobotMoveItAdapter[m[K::on_activate(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Klerobot_gazebo_plugins::CallbackReturn lerobot_gazebo_plugins::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:426:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  426 |     [01;31m[Kdata_ptr_[m[K->is_active = true;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:450:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  450 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter activated.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:450:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:450:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  450 |     [01;31m[KRCLCPP_INFO[m[K(this->nh_->get_logger(), "LerobotMoveItAdapter activated.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:450:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  450 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter activated.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:450:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  450 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter activated.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:454:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  454 | CallbackReturn [01;31m[KLerobotMoveItAdapter[m[K::on_deactivate(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Klerobot_gazebo_plugins::CallbackReturn lerobot_gazebo_plugins::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:457:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  457 |     [01;31m[Kdata_ptr_[m[K->is_active = false;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:458:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  458 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter deactivated.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:458:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:458:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  458 |     [01;31m[KRCLCPP_INFO[m[K(this->nh_->get_logger(), "LerobotMoveItAdapter deactivated.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:458:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  458 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter deactivated.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:458:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  458 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter deactivated.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:462:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  462 | CallbackReturn [01;31m[KLerobotMoveItAdapter[m[K::on_cleanup(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Klerobot_gazebo_plugins::CallbackReturn lerobot_gazebo_plugins::[01;32m[Kon_cleanup[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:465:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  465 |     [01;31m[Kdata_ptr_[m[K->is_active = false;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:466:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  466 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter cleaned up.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:466:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:466:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  466 |     [01;31m[KRCLCPP_INFO[m[K(this->nh_->get_logger(), "LerobotMoveItAdapter cleaned up.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:466:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  466 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter cleaned up.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:466:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  466 |     RCLCPP_INFO([01;31m[Kthis[m[K->nh_->get_logger(), "LerobotMoveItAdapter cleaned up.");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:470:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  470 | CallbackReturn [01;31m[KLerobotMoveItAdapter[m[K::on_shutdown(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:481:1:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  481 | [01;31m[KLerobotMoveItAdapter[m[K::export_state_interfaces()
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Kstd::vector<hardware_interface::StateInterface> lerobot_gazebo_plugins::[01;32m[Kexport_state_interfaces[m[K()[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:484:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  484 |     state_interfaces.reserve([01;31m[Kdata_ptr_[m[K->joints.size() * 3);
+      |                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:513:1:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  513 | [01;31m[KLerobotMoveItAdapter[m[K::export_command_interfaces()
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Kstd::vector<hardware_interface::CommandInterface> lerobot_gazebo_plugins::[01;32m[Kexport_command_interfaces[m[K()[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:516:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  516 |     command_interfaces.reserve([01;31m[Kdata_ptr_[m[K->joints.size());
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:534:33:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  534 | hardware_interface::return_type [01;31m[KLerobotMoveItAdapter[m[K::read(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Khardware_interface::return_type lerobot_gazebo_plugins::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:538:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  538 |     for (auto & joint : [01;31m[Kdata_ptr_[m[K->joints) {
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:545:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  545 |                         data_ptr_->ecm->Component<sim::components::JointPosition[01;31m[K>[m[K(joint.sim_joint))
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:555:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  555 |                         data_ptr_->ecm->Component<sim::components::JointVelocity[01;31m[K>[m[K(joint.sim_joint))
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:565:90:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  565 |                         data_ptr_->ecm->Component<sim::components::JointTransmittedWrench[01;31m[K>[m[K(joint.sim_joint))
+      |                                                                                          [01;31m[K^[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:582:33:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ has not been declared
+  582 | hardware_interface::return_type [01;31m[KLerobotMoveItAdapter[m[K::write(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In function ‘[01m[Khardware_interface::return_type lerobot_gazebo_plugins::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:586:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  586 |     if (![01;31m[Kdata_ptr_[m[K->is_active) {
+      |          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:590:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_ptr_[m[K’ was not declared in this scope
+  590 |     for (auto & joint : [01;31m[Kdata_ptr_[m[K->joints) {
+      |                         [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:22[m[K:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:621:29:[m[K [01;31m[Kerror: [m[K‘[01m[KLerobotMoveItAdapter[m[K’ in namespace ‘[01m[Klerobot_gazebo_plugins[m[K’ does not name a type; did you mean ‘[01m[KlerobotMoveItAdapter[m[K’?
+  621 |     lerobot_gazebo_plugins::[01;31m[KLerobotMoveItAdapter[m[K,
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:620:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  620 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:620:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [45], const char [42])[m[K’
+  620 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+  241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      | [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:620:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  620 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:[m[K At global scope:
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:129:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble lerobot_gazebo_plugins::{anonymous}::[01;32m[Kcompute_scalar_effort[m[K(sdf::v14::JointType, const sdf::v14::JointAxis&, const gz::msgs::Wrench&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  129 | double [01;35m[Kcompute_scalar_effort[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:96:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string lerobot_gazebo_plugins::{anonymous}::[01;32m[Kresolve_command_topic[m[K(const hardware_interface::ComponentInfo&, const rclcpp::Logger&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   96 | std::string [01;35m[Kresolve_command_topic[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/src/lerobot_moveit_adapter.cpp:74:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble lerobot_gazebo_plugins::{anonymous}::[01;32m[Kparse_initial_value[m[K(const hardware_interface::InterfaceInfo&, const rclcpp::Logger&, const std::string&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   74 | double [01;35m[Kparse_initial_value[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lerobot_moveit_adapter.dir/build.make:76: CMakeFiles/lerobot_moveit_adapter.dir/src/lerobot_moveit_adapter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/lerobot_moveit_adapter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

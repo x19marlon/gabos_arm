@@ -1,0 +1,5 @@
+source;share/lerobot_gazebo_plugins/local_setup.bash
+source;share/lerobot_gazebo_plugins/local_setup.dsv
+source;share/lerobot_gazebo_plugins/local_setup.ps1
+source;share/lerobot_gazebo_plugins/local_setup.sh
+source;share/lerobot_gazebo_plugins/local_setup.zsh

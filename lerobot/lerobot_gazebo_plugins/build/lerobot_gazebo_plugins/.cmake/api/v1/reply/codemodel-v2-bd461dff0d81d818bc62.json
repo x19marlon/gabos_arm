@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a5c0bf2dfff6224a2c1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lerobot_gazebo_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lerobot_gazebo_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lerobot_gazebo_plugins_uninstall-0d95f1ce795b09812cb0.json",
+					"name" : "lerobot_gazebo_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lerobot_hardware_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lerobot_hardware_interface-c997329945b2f812eca8.json",
+					"name" : "lerobot_hardware_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lerobot_moveit_adapter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lerobot_moveit_adapter-5a9be4492dc7c60d98f9.json",
+					"name" : "lerobot_moveit_adapter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e98c8c552a1b6bf07ccd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins/build/lerobot_gazebo_plugins",
+		"source" : "/home/marlon/ras/RAS-Lerobot-/src/lerobot/lerobot_gazebo_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
