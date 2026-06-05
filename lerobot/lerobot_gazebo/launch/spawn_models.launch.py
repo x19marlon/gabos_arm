@@ -44,7 +44,7 @@ def generate_launch_description():
 
     # Lamp spawn configuration:
     lamp_name = "desk_lamp"
-    lamp_position = [-0.68, 0.20, 1.40]   # X, Y, Z — on top of the desk
+    lamp_position = [-0.68, 0.20, 0.84]   # X, Y, Z — on top of the desk
     lamp_orientation = [0.0, 0.0, 0.0]        # Roll, Pitch, Yaw (radians)
 
     # Spawn desk model in Gazebo:

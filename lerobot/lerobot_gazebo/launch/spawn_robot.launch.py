@@ -13,7 +13,7 @@ def generate_launch_description():
     entity_name = "lerobot"
 
     # Define the starting position of the robot in the Gazebo simulation:
-    position = [0.29, -0.25, 1.4]
+    position = [0.29, -0.25, 0.77]
 
     # Define the orientation of the robot in the Gazebo simulation:
     orientation = [0.0, 0.0, 2.57]
@@ -30,7 +30,7 @@ def generate_launch_description():
             '-allow_renaming', 'true',
             '-x', str(position[0]), '-y', str(position[1]), '-z', str(position[2]),
             '-R', str(orientation[0]), '-P', str(orientation[1]), '-Y', str(orientation[2]),
-            '--initial-joint-positions', '3:=-1.508'  # BUG 5 FIX: 'arm_link_joint' does not exist, correct name is '3'
+            '--initial-joint-positions', 'arm_link_joint:=-1.508'
         ]
     )
     
