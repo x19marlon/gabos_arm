@@ -110,7 +110,7 @@ Follow these instructions to build the workspace:
 2.  **Build the Workspace**:
     From the root directory of your workspace (e.g., `/home/marlon/gabos_arm_ws/`):
     ```bash
-    colcon build --symlink-install
+    colcon build 
     ```
 
 3.  **Source the Workspace**:
